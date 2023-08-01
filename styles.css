@@ -158,13 +158,20 @@ header {
   background: #ff2d75;
 }
 
+.about {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 0 10%;
+}
+
 /* animations */
 @keyframes animate {
   0% {
-    transform: translateY(100vh) scale(0);
+    transform: translateY(98vh) scale(0.15);
   }
 
   100% {
-    transform: translateY(-10vh) scale(0.5);
+    transform: translateY(-10vh) scale(0.15);
   }
 }
