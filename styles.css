@@ -204,17 +204,22 @@ body {
 .about-content h2 {
   font-size: 36px;
   font-weight: 600;
-  line-height: 1.2;
 }
 
-.about-content h3 {
-  font-size: 26px;
-  font-weight: 500;
+.about-content .about-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
 
 .about-content img {
-  height: 300px;
-  width: 300px;
+  height: 13em;
+  width: 13em;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: grayscale(90%);
 }
 
 .about-content p {
@@ -246,8 +251,8 @@ body {
 }
 
 .projects-content .card {
-  width: 288px;
-  height: 450px;
+  width: 18rem;
+  height: 25rem;
   border-radius: 20px;
   overflow: hidden;
   border: 2px solid whitesmoke;
