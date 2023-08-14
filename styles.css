@@ -69,6 +69,19 @@ body {
   max-width: 600px;
 }
 
+.home-content .msg-box {
+  background-color: aqua;
+  width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 600;
+  color: rgb(11, 3, 32);
+}
+
+.home-content .msg-box i {
+  margin-right: 5px;
+}
+
 .home-content h1 {
   font-size: 48px;
   font-weight: 700;
@@ -489,6 +502,15 @@ body {
   .home-content h1 {
     display: flex;
     flex-direction: column;
+  }
+
+  .home-content .msg-box {
+    width: max-content;
+  }
+
+  .home-content .msg-box span,
+  .home-content .msg-box i {
+    font-size: 16px;
   }
 
   .projects-content .card {
