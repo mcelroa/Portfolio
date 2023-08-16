@@ -15,9 +15,10 @@ try {
     //Server settings
     $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
     $mail->isSMTP();                                            //Send using SMTP
-    $mail->Host       = 'ssl://email-smtp.eu-north-1.amazonaws.com';                     //Set the SMTP server to send through
-    $mail->Username   = 'AKIATQ2XURXDHRW222HD';                     //SMTP username
-    $mail->Password   = 'BFi+Ml15ABSsNMt+ZKNWCGgoGPMCFZADArGIa2qn29Fb';                               //SMTP password
+    $mail->Host       = 'email-smtp.eu-north-1.amazonaws.com';                     //Set the SMTP server to send through
+    $mail->Username   = 'ses-smtp-user.20230811-003645';                     //SMTP username
+    $mail->Password   = 'AKIATQ2XURXDHRW222HD ';                               //SMTP password
+    $mail->SMTPSecure = "tls";
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
     //Recipients

@@ -36,14 +36,14 @@ body {
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 1.6rem;
   color: whitesmoke;
   text-decoration: none;
   font-weight: 600;
 }
 
 .navbar a {
-  font-size: 18px;
+  font-size: 1.2rem;
   color: whitesmoke;
   text-decoration: none;
   font-weight: 500;
@@ -71,7 +71,7 @@ body {
 
 .home-content .msg-box {
   background-color: aqua;
-  width: fit-content;
+  max-width: fit-content;
   padding: 5px;
   border-radius: 5px;
   font-weight: 600;
@@ -83,27 +83,27 @@ body {
 }
 
 .home-content h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .home-content h3 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: aqua;
 }
 
 .home-content p {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 20px 0 40px;
 }
 
 .home-content .btn-box {
   display: flex;
   justify-content: space-between;
-  width: 345px;
-  height: 50px;
+  max-width: 345px;
+  min-height: 50px;
 }
 
 .btn-box a,
@@ -202,28 +202,20 @@ body {
 }
 
 .about-content h2 {
-  font-size: 36px;
+  font-size: 3rem;
   font-weight: 600;
 }
 
-.about-content .about-top {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 40px;
-}
-
 .about-content img {
-  height: 13em;
-  width: 13em;
+  height: 18rem;
+  width: 18rem;
   object-fit: cover;
   border-radius: 50%;
   filter: grayscale(100%);
 }
 
 .about-content p {
-  font-size: 18px;
+  font-size: 1.3rem;
 }
 
 /* Projects Section */
@@ -237,11 +229,11 @@ body {
 }
 
 .projects h1 {
-  font-size: 40px;
+  font-size: 3rem;
 }
 
 .projects h2 {
-  font-size: 30px;
+  font-size: 2rem;
   font-weight: 600;
 }
 
@@ -251,7 +243,7 @@ body {
 }
 
 .projects-content .card {
-  width: 18rem;
+  max-width: 18rem;
   height: 25rem;
   border-radius: 20px;
   overflow: hidden;
@@ -307,7 +299,7 @@ body {
   outline: none;
   padding: 5px 10px;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
@@ -333,7 +325,7 @@ body {
 }
 
 .contact-content h2 {
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: 600;
   line-height: 1.2;
 }
@@ -396,7 +388,7 @@ body {
 
 .contact-content form .input-box .input-field input::placeholder,
 .contact-content form .textarea-field textarea::placeholder {
-  color: whi;
+  color: white;
 }
 
 .contact-content form .textarea-field {
